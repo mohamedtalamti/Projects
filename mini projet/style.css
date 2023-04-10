@@ -1,0 +1,104 @@
+body{
+    
+    background-image: url(image/doodle-travel-background_23-2148044879.avif);
+    background-size: cover;
+    background-size: 100%;
+}
+
+.logo{
+    float: left;
+    display: flex;
+    border: solid 2px rgb(5, 7, 129);
+    
+    height: 130px;
+    margin-left: 200px;
+}
+
+
+nav ul li {
+    margin-top: 30px;
+    list-style: none;
+}
+nav ul a {
+    display: block;
+    border: solid 2px rgb(5, 7, 129);
+    background: rgb(238, 159, 2);
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    color: white;
+    line-height: 50px;
+    margin-left: 20px;
+    
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.slide img{
+   
+    width: 875px;
+    height: 310px;
+    margin-left: 392px;
+    border:solid rgb(0, 0, 0) ;
+}
+#cities-container {
+    display: flex;
+    float: right;
+    margin-left: -100px;
+    padding-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+
+#aga , #ess, #tan, #mar{
+    width: 250px;
+    border:solid rgb(5, 7, 129) ;
+    border-radius: 4%;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: white;
+    
+    
+}
+main{
+    float: left;
+    margin-left: 380px;
+    margin-top: 50px;
+}
+
+footer p{
+    background-color: rgb(238, 159, 2);
+    color: #fff;
+    padding: 3px;
+    margin: 5px;
+    text-align: center;
+    float: right;
+    margin-right: 40%;
+    border:solid 2px rgb(5, 7, 129) ;
+}
+p{
+    text-align: justify;
+}
+footer a img {
+    display: inline;
+    background-position: 50% 50%;
+    width: 50px;
+    height: 40px;
+    margin-top: 95%;
+    mix-blend-mode: multiply;
+}
+    
+
+
+
+
+
+
+
+
+
+
